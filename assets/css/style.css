@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    height: 100%;
+    
+}
+
+body{
+    width: 100%;
+    
+}
+
+.img-container{
+    background-image: url(../images/thegang.jpg);
+    height: 70%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top; 
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ .inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: white; 
+    height: auto; 
+
+} 
+
+
+h1{
+    font-size: 7em;
+    padding-top: 20px;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 290px;
+    font-weight: 100;
+}
+
+ a{
+    margin-top: 20px;
+    font-size: 1.3em; 
+    
+}
+
+
+.btn{
+    display: inline-block;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    /* margin-bottom: 200px; */
+  
+}
+
+
+
+.questions{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -150px;
+    padding-bottom: 100px;
+    border: 2px solid lightgray;
+    background-color: azure;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+  #Timer{
+    font-size: 70px;
+    color: black;
+    border: 2px solid lightslategray;
+    height: 200px;
+    width: 200px;
+    text-decoration: none;
+    position: sticky;
+    
+}  
+/* input{
+    width: 0px;
+} */
+
+
+   

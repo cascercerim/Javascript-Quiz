@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HIMYM Trivia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="img-container">
+        <div class="inner-container">
+            <h1>How I Met Your Mother TRIVIA!</h1>
+                <h2>Click start button to play game.</h2> 
+                <button type="button" class="btn btn-light">Start!</button>
+                <div id="Timer">Time remaining:0</div> 
+            <!-- <div class="img"></div>  -->
+
+            <h2 id="Game"></h2>
+
+            <div class="questions" style="visibility: collapse;"> 
+            <p>1. Who does Marshall marry on the show?</p>
+            <form class="options">
+            <input class="option" type="radio" name="question" value=0> Barney<br>
+            <input class="option" type="radio" name="question" value=0> Robin<br>
+            <input class="option" type="radio" name="question" value=1> Lily<br>
+            <input class="option" type="radio" name="question" value=0> Ted<br>
+<br>
+            <p>2. Who does Ted end up marrying on the show at the end?</p>
+            <input class="option" type="radio" name="question" value=0> Tracy<br>
+            <input class="option" type="radio" name="question" value=0> Robin<br>
+            <input class="option" type="radio" name="question" value=1> Lily<br>
+            <input class="option" type="radio" name="question" value=0> Victoria<br>
+            <br>
+            <p>3. Barney's known for the phrase "It's going to be, Legen wait for it..."?</p>
+            <input class="option" type="radio" name="question" value=1> -dary<br>
+            <input class="option" type="radio" name="question" value=0> Incredible<br>
+            <input class="option" type="radio" name="question" value=0> Amazing<br>
+            <input class="option" type="radio" name="question" value=0> great<br>
+            <br>
+            <p>4. Whats the bar the friends go to named?</p>
+            <input class="option" type="radio" name="question" value=0> Barnaby's<br>
+            <input class="option" type="radio" name="question" value=1> Maclaren's<br>
+            <input class="option" type="radio" name="question" value=0> Kildares<br>
+            <input class="option" type="radio" name="question" value=0> Xfinity Live<br>
+            <br>
+            <p>5. Who invented the "Have you met Ted" game?</p>
+            <input class="option" type="radio" name="question" value=0> Marshall<br>
+            <input class="option" type="radio" name="question" value=0> Lily<br>
+            <input class="option" type="radio" name="question" value=0> Robin<br>
+            <input class="option" type="radio" name="question" value=1> Barney<br>
+            <br>
+            <p>6. What is Barney's favorite outfit of choice on the show?</p>
+            <input class="option" type="radio" name="question" value=0> Sweatsuit<br>
+            <input class="option" type="radio" name="question" value=1> Suit<br>
+            <input class="option" type="radio" name="question" value=0> Jeans<br>
+            <input class="option" type="radio" name="question" value=0> Onsies<br>
+            <br>
+            <p>7. What is tattooed on Ted's lower back?</p>
+            <input class="option" type="radio" name="question" value=1> Butterfly<br>
+            <input class="option" type="radio" name="question" value=0> Dolphin<br>
+            <input class="option" type="radio" name="question" value=0> Rainbow<br>
+            <input class="option" type="radio" name="question" value=0> Eagle<br>
+            <br>           
+            <p>7. Who does Robin marry on the show to later divorce?</p>
+            <input class="option" type="radio" name="question" value=0> Mike<br>
+            <input class="option" type="radio" name="question" value=0> Robin<br>
+            <input class="option" type="radio" name="question" value=1> Barney<br>
+            <input class="option" type="radio" name="question" value=0> Ted<br>
+            <br>
+            <p>8. Which instrument did Ted steal for Robin in the first episode and appears in Robin’s apartment for the rest of the series?</p>
+            <input class="option" type="radio" name="question" value=0> Trumpet<br>
+            <input class="option" type="radio" name="question" value=0> Tuba<br>
+            <input class="option" type="radio" name="question" value=1> French Horn<br>
+            <input class="option" type="radio" name="question" value=0> Clarinet<br>
+            <br>
+            <p>9. What did Barney have to wear for a year after losing a bet?</p>
+            <input class="option" type="radio" name="question" value=0> Kitten Underwear<br>
+            <input class="option" type="radio" name="question" value=1> Ducky Tie<br>
+            <input class="option" type="radio" name="question" value=0> Bunny Socks<br>
+            <input class="option" type="radio" name="question" value=0> Monkey Shoes<br>
+            <br>
+            <p>10. Barney, Ted, and Marshall all worked for GNB at some point. What does GNB stand for?</p>
+            <input class="option" type="radio" name="question" value=0> Gigantic National Bank<br>
+            <input class="option" type="radio" name="question" value=0> Global Nutritional Brands<br>
+            <input class="option" type="radio" name="question" value=0> Grant National Brands<br>
+            <input class="option" type="radio" name="question" value=1> Goliath National Bank<br>
+            
+        </form>
+        </div>
+        
+</div>
+</div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
