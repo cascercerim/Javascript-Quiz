@@ -5,94 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>HIMYM Trivia</title>
-    <link rel="stylesheet" href="assets/css/style.css"> 
+      <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="img-container">
-        <div class="inner-container">
-            <h1>How I Met Your Mother TRIVIA!</h1>
-                <h2>Click start button to play game.</h2> 
+     <div class="img-container">
+        <div class="inner-container"> 
+             <h1>How I Met Your Mother TRIVIA!</h1>
+                <h2>Click start button to play game then scroll down.</h2>  
                 <button type="button" class="btn btn-light">Start!</button>
+                <div class="time">
+                <div id="time-left"> </div>
+            </div>
+          <div class="wrapper"style="visibility: collapse;">
+
                 
-                <div id="timer"> </div>
-          <div class="wrapper">
-
-            <div class="question">
-                <div class="answers">
-                    
-                </div> 
-            <!-- <p>1. Who does Marshall marry on the show?</p>
-            <form class="options">
-             
-            <input class="option" type="radio" class="question" value=0> Barney</input>
-            <input class="option" type="radio" value=0> Robin</input>
-            <input class="option" type="radio" value=1> Lily</input>
-            <input class="option" type="radio" value=0> Ted</input> -->
-
-
-          <!-- <p>2. Who does Ted end up marrying on the show at the end?</p>
-            <input class="option" type="radio" value=1> Tracy
-            <input class="option" type="radio" value=0> Robin
-            <input class="option" type="radio" value=0> Lily
-            <input class="option" type="radio" value=0> Victoria
-
-         <p>3. Barney's known for the phrase "It's going to be, Legen wait for it..."?</p>
-            <input class="option" type="radio" value=1> -dary
-            <input class="option" type="radio" value=0> Incredible
-            <input class="option" type="radio" value=0> Amazing
-            <input class="option" type="radio" value=0> great
-
-           <p>4. Whats the bar the friends go to named?</p>
-            <input class="option" type="radio" value=0> Barnaby's
-            <input class="option" type="radio" value=1> Maclaren's
-            <input class="option" type="radio" value=0> Kildares
-            <input class="option" type="radio" value=0> Xfinity Live
-
-             <p>5. Who invented the "Have you met Ted" game?</p>
-            <input class="option" type="radio" value=0> Marshall
-            <input class="option" type="radio" value=0> Lily
-            <input class="option" type="radio" value=0> Robin
-            <input class="option" type="radio" value=1> Barney
-       
-             <p>6. What is Barney's favorite outfit of choice on the show?</p>
-            <input class="option" type="radio" value=0> Sweatsuit
-            <input class="option" type="radio" value=1> Suit
-            <input class="option" type="radio" value=0> Jeans
-            <input class="option" type="radio" value=0> Onsies
-            
-             <p>7. What is tattooed on Ted's lower back?</p>
-            <input class="option" type="radio" value=1> Butterfly
-            <input class="option" type="radio" value=0> Dolphin
-            <input class="option" type="radio" value=0> Rainbow
-            <input class="option" type="radio" value=0> Eagle
-                      
-           <p>8. Which instrument did Ted steal for Robin in the first episode and appears in Robin’s apartment for the rest of the series?</p>
-            <input class="option" type="radio" value=0> Trumpet
-            <input class="option" type="radio" value=0> Tuba
-            <input class="option" type="radio" value=1> French Horn
-            <input class="option" type="radio" value=0> Clarinet
-             
-           <p>9. What did Barney have to wear for a year after losing a bet?</p>
-            <input class="option" type="radio" value=0> Kitten Underwear
-            <input class="option" type="radio" value=1> Ducky Tie
-            <input class="option" type="radio" value=0> Bunny Socks
-            <input class="option" type="radio" value=0> Monkey Shoes
-            
-            <p>10. Barney, Ted, and Marshall all worked for GNB at some point. What does GNB stand for?</p>
-            <input class="option" type="radio" value=0 > Gigantic National Bank
-            <input class="option" type="radio" value=0> Global Nutritional Brands
-            <input class="option" type="radio" value=0> Grant National Brands
-            <input class="option" type="radio" value=1> Goliath National Bank -->
-       
-         <!-- </form>  -->
-         <div class="next">Next ?</div>
+            <!-- </div>
           
-    </div>
-</div>
-</div>
+            <div class="TriviaQs"> -->
+
+             <form  class="questions">
+            <p>1. Who does Marshall marry on the show?</p>
+            <input class="option" type="radio" name="q1" value=0> Barney
+            <input class="option" type="radio" name="q2" value=0> Robin
+            <label class="winner"><input class="option" type="radio" name="q3" value=1> Lily</label>
+            <input class="option" type="radio" name="q4" value=0> Ted
+        </form>
+     
+ 
+
+    <form  class="questions">
+           <p>2. Who does Ted end up marrying on the show at the end?</p>
+          <input class="option" type="radio" name="q5" value=1> Tracy
+            <input class="option" type="radio" name="q6" value=0> Robin
+            <input class="option" type="radio" name="q7" value=0> Lily
+            <input class="option" type="radio" name="q8" value=0> Victoria
+           </form>
+           <form  class="questions">
+             <p>3. Barney's known for the phrase "It's going to be, Legen wait for it..."?</p>
+            <input class="option" type="radio" name="q9" value=0> Incredible
+            <label class="winner"><input class="option" type="radio" name="q10" value=1> -dary</label>
+            <input class="option" type="radio" name="q11" value=0> Amazing
+            <input class="option" type="radio" name="q12" value=0> great 
+        </form>
+        <form  class="questions">
+            <p>4. Whats the bar the friends go to named?</p>
+            <input class="option" type="radio" name="q13" value=0> Barnaby's
+            <input class="option" type="radio" name="q14"  value=0> Kildares
+            <input class="option" type="radio" name="q15" value=0> Xfinity Live
+            <label class="winner"><input class="option" type="radio" name="q16" value=1> Maclaren's</label> 
+        </form>
+        <form  class="questions">
+             <p>5. Who invented the "Have you met Ted" game?</p>
+            <input class="option" type="radio" name="a16"  value=0> Marshall
+            <input class="option" type="radio" name="a17"  value=0> Lily
+            <input class="option" type="radio" name="a18"  value=0> Robin
+            <input class="option" type="radio" name="a19"  value=1> Barney
+        </form>
+
+        <div class="answer-box">
+                <div id="answers"></div>
+                 <div id="wrong-answer"></div>
+                 <div id="no-answer"></div>
+              </div>
+       
+            
+             
+                   <button type="button" class="btn btn-dark submit">Submit!</button>
+                </div>
+            </div>
  <script src="assets/javascript/app.js"></script> 
 </body>
 </html>
